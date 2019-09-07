@@ -167,106 +167,11 @@
         </div> 
 
       </div>
-   </section>
+   
+ <form action="file:///C:/Users/BASE%20POINT/Desktop/code/contactme.html?">
+        <input type="submit" value="Contact Me" />
+    </form>
 
-   
-     
-    
-  
-    
-  </div>
-  <script> 
-function VALIDATION()                                    
-{ 
-    var name = document.forms["RegForm"]["Name"];               
-    var email = document.forms["RegForm"]["Email"];    
-    var title= document.forms["RegForm"]["title"] 
-     
-     
-     
-   
-    if (name.length < 4 )                                  
-    { 
-        window.alert("Please enter your name."); 
-        name.focus(); 
-        return false; 
-    } 
-   
-   
-       
-    if (email.value == "")                                   
-    { 
-        window.alert("Please enter a valid e-mail address."); 
-        email.focus(); 
-        return false; 
-    } 
-   
-    if (email.value.indexOf("@", 0) < 0)                 
-    { 
-        window.alert("Please enter a valid e-mail address."); 
-        email.focus(); 
-        return false; 
-    } 
-   
-    if (email.value.indexOf(".", 0) < 0)                 
-    { 
-        window.alert("Please enter a valid e-mail address."); 
-        email.focus(); 
-        return false; 
-    } 
-  
-   
-   
-   
-   
- 
-   
-}  
-</script> 
-  
-<style> 
-VALIDATION {                                         
-    margin-left: 70px; 
-    font-weight: bold ; 
-    float: left; 
-    clear: left; 
-    width: 100px; 
-    text-align: left; 
-    margin-right: 10px; 
-    font-family:sans-serif,bold, Arial, Helvetica; 
-    font-size:14px; 
-} 
-   
-div {  
-    box-sizing: border-box; 
-    width: 100%; 
-    border: 100px solid black; 
-    float: left; 
-    align-content: center; 
-    align-items: center; 
-} 
-   
-form {                                         
-    margin: 0 auto; 
-    width: 600px; 
-}</style></head> 
-   
-<body> 
-<h1 style="text-align: center"> CONTACT ME </h1>           
-<form name="RegForm" action="/submit.php" onsubmit="return VALIDATION()" method="post">  
-      
-    <p>Name: <input type="text" size=65 name="Name"> </p><br>        
-    
-    <p>E-mail Address: <input type="text" size=65 name="Email">  </p><br> 
-     <p>Title: <input type="text" size=50 name="title"> </p><br> 
-    
-           
-    <br><br> 
-    <p>Message:  <textarea cols="55" name="message">  </textarea></p> 
-    <p><input type="submit" value="Send" name="Submit">      
-        <input type="reset" value="Reset" name="Reset">   
-    </p>          
-</form> 
 
   </body>
   </html>
